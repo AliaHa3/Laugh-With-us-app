@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="adab.esy.es.laughwithus.VideoViewClass">
+
+    <item android:id="@+id/about3" android:title="@string/title_activity_about"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="200"
+        android:title="Share"
+        android:icon="@drawable/ic_action"
+        app:showAsAction="always"
+        ></item>
+
+</menu>

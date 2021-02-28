@@ -1,0 +1,32 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="adab.esy.es.laughwithus.About"
+    >
+
+    <include
+        android:id="@+id/tool_bar3"
+        layout="@layout/tool_bar"
+        ></include>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon1"
+        android:layout_below="@+id/tool_bar3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView" />
+
+    <TextView android:text="This Application is made by:\nAlia Hamwi\nContact Us:\nalia.hamwi.95@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:autoLink="email"/>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">
+        اضحك معنا
+    </string>
+    <string name="title_activity_video_list">
+        أنواع المقاطع
+    </string>
+    <string name="title_activity_video_view">
+        عرض الفيديو
+    </string>
+    <string name="title_activity_about">
+        عن التطبيق
+    </string>
+
+</resources>
