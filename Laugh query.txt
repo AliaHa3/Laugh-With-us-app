@@ -1,0 +1,16 @@
+
+CREATE TABLE type(
+    type_id INT(3) NOT NULL AUTO_INCREMENT,
+    PRIMARY KEY (type_id),
+    name VARCHAR(60)
+    );
+
+
+CREATE TABLE video(
+    video_id INT(3) NOT NULL AUTO_INCREMENT,
+    PRIMARY KEY (video_id),
+    link VARCHAR(60),
+    name VARCHAR(255),
+    type_id INT(3),
+    FOREIGN KEY(type_id)REFERENCES type(type_id)
+    );
